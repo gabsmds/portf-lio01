@@ -1,0 +1,23 @@
+/* estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        background-color: #f9c2f9 ;
+        height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* estilo do cabeçalho  */
+header{
+    padding: 40px 4%;
+}
+header> .interface{
+    
+}

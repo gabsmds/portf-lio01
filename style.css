@@ -29,6 +29,21 @@ body{
     transition: .2s;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #a780a7;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgba(240, 255, 255, 0.888);
+    transform: scale(1.05);
+}
+
 /* estilo do cabeçalho  */
 header{
     padding: 40px 4%;
@@ -105,4 +120,105 @@ section.topo-do-site .flex{
         top:30px;
     }
 }
+
+/*estilo das especialidades*/
+
+section.especialidades{
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex{
+     gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+    color: #fff;
+}
+    
+
+
+
+
+
+/*formularo de contato*/
+section.formulario{
+    padding: 80px 4%;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.204);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+form input::placeholder{
+    color: #f090f0;
+}
+
+form textarea::placeholder{
+    resize: none;
+    color: #f090f0;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: rgba(240, 255, 255, 0.888);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
